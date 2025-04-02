@@ -1,5 +1,5 @@
 # EXAMEN_JAVA-CARVAJAL_NILSON
-"""
+
 CREACION DE LA BASE DE DATOS
 
 CREATE DATABASE IF NOT EXISTS centro_salud;
@@ -60,4 +60,4 @@ INSERT INTO Medico (nombre, especialidad_id, horario_inicio, horario_fin) VALUES
 INSERT INTO Cita (paciente_id, medico_id, fecha_hora, estado) VALUES 
 (1, 1, '2023-12-15 10:00:00', 'PENDIENTE'),
 (2, 2, '2023-12-16 11:00:00', 'CONFIRMADA');
-"""
+
